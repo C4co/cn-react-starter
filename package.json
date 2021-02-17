@@ -1,7 +1,22 @@
 {
   "name": "cra-template-cn-starter",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "author": "Carlos Costa <carllos.nc@gmail.com",
+  "private": false,
+  "main": "template.json",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "cra-template",
+    "template"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/C4co/cn-react-starter",
+    "directory": "/"
+  },
+ "files": ["template", "template.json"],
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -33,13 +48,19 @@
     "eject": "react-scripts eject",
     "format": "npx prettier --write src",
     "render": "react-snap",
-    "test:once": "react-scripts test --watchAll=false --coverage"
+    "test:once": "react-scripts test --watchAll=false --coverage",
+    "update-template": "rm -rf template/src && rm -rf template/public/ && cp -R src/ template && cp -R public/ template"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest",
+    "access": "public"
   },
   "jest": {
     "collectCoverageFrom": [
