@@ -1,0 +1,8 @@
+[build]
+  publish = "build/"
+  command = "npm run test:once && npm run lint && npm run build && npm run render"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
