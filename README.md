@@ -9,6 +9,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b97aac0b-9dd8-4558-bee5-85cce77e87e4/deploy-status)](https://app.netlify.com/sites/cn-react-starter/deploys)
 [![npm version](https://badge.fury.io/js/cra-template-cn-starter.svg)](https://badge.fury.io/js/cra-template-cn-starter)
 [![Build Status](https://travis-ci.com/C4co/cn-react-starter.svg?branch=master)](https://travis-ci.com/C4co/cn-react-starter)
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
 > Opinated CRA Template
 
