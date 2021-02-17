@@ -8,6 +8,10 @@
 
 > Opinated CRA Template
 
+```
+npx create-react-app --template cn-starter
+```
+
 ### What's inside
 - [Typescript](https://www.typescriptlang.org/)
 - [Sass](https://sass-lang.com/)
