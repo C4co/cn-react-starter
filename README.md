@@ -1,4 +1,10 @@
-# CN React Starter
+<p align="center">
+  <img alt="react" src="https://i.imgur.com/DJW4Vfy.png" width="100" />
+</p>
+
+<h1 align="center">
+  CN React Starter
+</h1>
 
 > Opinated CRA Template
 
