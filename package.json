@@ -1,6 +1,7 @@
 {
   "name": "cra-template-cn-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "description": "Opinated CRA Template",
   "author": "Carlos Costa <carllos.nc@gmail.com",
   "private": false,
   "main": "template.json",
