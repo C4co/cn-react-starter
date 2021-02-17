@@ -1,1 +1,2 @@
-export * from "./title/title"
+export * from "./welcome/welcome"
+

@@ -1,5 +1,5 @@
 <p align="center">
-  <img alt="react" src="https://i.imgur.com/DJW4Vfy.png" width="110" />
+  <img alt="react" src="https://i.imgur.com/1eeN3Gl.png" width="110" />
 </p>
 
 <h1 align="center">
@@ -9,16 +9,16 @@
 > Opinated CRA Template
 
 ### What's inside
-- [Typescript]()
-- [Sass]()
-- [Jest]()
-- [Testing Library]()
-- [Styled Components]()
-- [React Router Dom]()
-- [React query]()
-- [React snap]()
-- [React icons]()
-- [Axios]()
+- [Typescript](https://www.typescriptlang.org/)
+- [Sass](https://sass-lang.com/)
+- [Jest](https://jestjs.io/)
+- [Testing Library](https://testing-library.com/)
+- [Styled Components](https://styled-components.com/)
+- [React Router Dom](https://reactrouter.com/web/guides/quick-start)
+- [React query](https://react-query.tanstack.com/)
+- [React snap](https://github.com/stereobooster/react-snap)
+- [React icons](https://react-icons.github.io/react-icons/)
+- [Axios](https://github.com/axios/axios)
 
 ### Layers
 

@@ -1,7 +1,15 @@
+import styled from "styled-components"
+import { BasicPage } from "../../templates"
+
+const Title = styled.h1`
+  font-size: 3em;
+  font-weight: normal;
+`
+
 export function NotFoundPage() {
   return (
-    <div>
-      <h1> Page not found! </h1>
-    </div>
+    <BasicPage>
+      <Title> Page not found </Title>
+    </BasicPage>
   )
 }

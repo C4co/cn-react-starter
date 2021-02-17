@@ -1,7 +1,10 @@
-import { Title } from "../../components"
+import { BasicPage } from "../../templates"
+import { Welcome } from "../../components"
 
 export function HomePage() {
   return (
-    <Title> React app starter </Title>
+    <BasicPage>
+      <Welcome />
+    </BasicPage>
   )
 }
