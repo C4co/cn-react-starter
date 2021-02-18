@@ -7,7 +7,7 @@
 </h1>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b97aac0b-9dd8-4558-bee5-85cce77e87e4/deploy-status)](https://app.netlify.com/sites/cn-react-starter/deploys)
-[![npm version](https://badge.fury.io/js/cra-template-cn-starter.svg)](https://badge.fury.io/js/cra-template-cn-starter)
+![npm](https://img.shields.io/npm/v/cra-template-cn-starter?color=green)
 [![Build Status](https://travis-ci.com/C4co/cn-react-starter.svg?branch=master)](https://travis-ci.com/C4co/cn-react-starter)
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/50cdee8e55c14c6a98ea5f4f7a3f9003)](https://www.codacy.com/gh/C4co/cn-react-starter/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=C4co/cn-react-starter&amp;utm_campaign=Badge_Grade)
