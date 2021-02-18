@@ -10,14 +10,10 @@ const Center = styled.div`
   padding: 10px;
 `
 
-interface BasicPageProps  {
+interface BasicPageProps {
   children: any
 }
 
-export function BasicPage(props: BasicPageProps){
-  return (
-    <Center>
-      { props.children }
-    </Center>
-  )
+export function BasicPage(props: BasicPageProps) {
+  return <Center>{props.children}</Center>
 }

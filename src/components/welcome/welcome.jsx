@@ -40,7 +40,7 @@ const Install = styled.div`
   padding: 12px 20px 17px 20px;
 `
 
-export function Welcome(){
+export function Welcome() {
   return (
     <Content data-testid="welcome-content">
       <Logo data-testid="welcome-logo" src={ASSETS.LOGO} alt="logo" />
