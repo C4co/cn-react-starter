@@ -11,7 +11,7 @@ describe("<Title /> component", () => {
     expect(getByTestId("welcome-content")).toBeInTheDocument()
     expect(getByTestId("welcome-logo")).toBeInTheDocument()
     expect(getByTestId("welcome-title")).toBeInTheDocument()
-    expect(getByTestId("welcome-title")).toHaveTextContent("CN React Starter")
+    expect(getByTestId("welcome-title")).toHaveTextContent("CN REACT STARTER")
     expect(getByTestId("welcome-description")).toBeInTheDocument()
     expect(getByTestId("welcome-description")).toHaveTextContent("Opinated CRA template")
   })
