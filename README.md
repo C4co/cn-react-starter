@@ -47,28 +47,28 @@ npx create-react-app --template cn-starter
 
 **Start**
 ```
-yarn start
+npm start
 ```
 
 **Tests**
 ```
-yarn test
-yarn test:once
+npm test
+npm run test:once
 ```
 
 **Build**
 ```
-yarn build
+npm run build
 ```
 
 **Formating**
 ```
-yarn format
+npm run format
 ```
 
 **Render**
 ```
-yarn render
+npm run render
 ```
 ---
 
