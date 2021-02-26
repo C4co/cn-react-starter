@@ -6,7 +6,7 @@ import { Welcome } from "./welcome"
 
 describe("<Title /> component", () => {
   test("Check initial render", () => {
-    const { getByTestId } = render(<Welcome/>)
+    const { getByTestId } = render(<Welcome />)
 
     expect(getByTestId("welcome-content")).toBeInTheDocument()
     expect(getByTestId("welcome-logo")).toBeInTheDocument()

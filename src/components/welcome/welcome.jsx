@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { COLORS } from "../../values"
 import { ASSETS } from "../../values"
+import { FaGithubAlt } from "react-icons/fa"
 
 const Content = styled.div`
   display: flex;
@@ -11,42 +12,49 @@ const Content = styled.div`
 
 const Title = styled.h1`
   color: ${COLORS.PRIMARY};
-  font-size: 2.4em;
-  margin-bottom: 15px;
-  font-weight: normal;
+  font-size: 1.8em;
+  margin-bottom: 10px;
   text-align: center;
 `
 
 const Description = styled.p`
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.1em;
   color: ${COLORS.FONT};
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
 `
 
 const Logo = styled.img`
   max-width: 120px;
   width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 `
 
 const Install = styled.div`
-  background: #1f1f3d;
   text-align: center;
-  color: #99ffcc;
+  color: ${COLORS.INFO};
   border-radius: 3px;
   font-size: 1.4em;
-  padding: 12px 20px 17px 20px;
+  margin: 0 0 30px 0;
+`
+
+const Github = styled.a`
+  font-size: 70px;
+  color: ${COLORS.PRIMARY};
+  line-height: 0;
 `
 
 export function Welcome() {
   return (
     <Content data-testid="welcome-content">
       <Logo data-testid="welcome-logo" src={ASSETS.LOGO} alt="logo" />
-      <Title data-testid="welcome-title"> CN React Starter </Title>
+      <Title data-testid="welcome-title"> CN REACT STARTER </Title>
       <Description data-testid="welcome-description"> Opinated CRA template </Description>
       <Install> npx create-react-app --template cn-starter </Install>
+      <Github target="_blank" href="https://github.com/C4co/cn-react-starter">
+        <FaGithubAlt/>
+      </Github>
     </Content>
   )
 }
