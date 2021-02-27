@@ -1,7 +1,3 @@
-<p align="center">
-  <img alt="react" src="https://i.imgur.com/pRZUxef.png" width="110" />
-</p>
-
 <h1 align="center">
   CN React Starter
 </h1>
