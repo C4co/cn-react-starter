@@ -12,8 +12,8 @@ const Content = styled.div`
 
 const Title = styled.h1`
   color: ${COLORS.PRIMARY};
-  font-size: 1.8em;
-  margin-bottom: 10px;
+  font-size: 1.5em;
+  margin-bottom: 15px;
   text-align: center;
 `
 
@@ -21,26 +21,26 @@ const Description = styled.p`
   text-align: center;
   font-size: 1.1em;
   color: ${COLORS.FONT};
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   text-align: center;
 `
 
 const Logo = styled.img`
-  max-width: 120px;
+  max-width: 100px;
   width: 100%;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 `
 
 const Install = styled.div`
   text-align: center;
   color: ${COLORS.INFO};
   border-radius: 3px;
-  font-size: 1.4em;
-  margin: 0 0 30px 0;
+  font-size: 1.2em;
+  margin-bottom: 30px;
 `
 
 const Github = styled.a`
-  font-size: 70px;
+  font-size: 60px;
   color: ${COLORS.PRIMARY};
   line-height: 0;
 `
