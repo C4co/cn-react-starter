@@ -51,11 +51,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "format": "npx prettier --write src",
     "render": "react-snap",
     "test:once": "react-scripts test --watchAll=false --coverage",
-    "update:linux": "rm -rf template/src && rm -rf template/public/ && cp -R src/ template && cp -R public/ template",
-    "update:windows": "Remove-Item .\\template\\src\\ -Recurse -Force; Remove-Item .\\template\\public\\ -Recurse -Force; Copy-Item .\\src\\ -Recurse .\\template\\src; Copy-Item .\\public\\ -Recurse .\\template\\public"
+    "update:windows": "@powershell .\\update.ps1"
   },
   "eslintConfig": {
     "extends": [
