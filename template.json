@@ -24,9 +24,8 @@
       "styled-components": "^5.2.1",
       "typescript": "^4.2.3",
       "web-vitals": "^1.1.0"
-      },
+    },
     "scripts": {
-      "format": "npx prettier --write src",
       "render": "react-snap",
       "test:once": "react-scripts test --watchAll=false --coverage"
     },
