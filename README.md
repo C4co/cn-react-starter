@@ -30,13 +30,13 @@ npx create-react-app --template cn-starter
 
 ```
 📁 /src
-  📁 /assets (images, videos, etc...)
-  📁 /components (basic components)
-  📁 /pages (pages of features)
-  📁 /routes (config about routes)
-  📁 /services (server communication)
-  📁 /templates (page layouts)
-  📁 /values (constant values)
+└── 📁 /assets (images, videos, etc...)
+    📁 /components (basic components)
+    📁 /pages (pages of features)
+    📁 /routes (config about routes)
+    📁 /services (server communication)
+    📁 /templates (page layouts)
+    📁 /values (constant values)
 ```
 
 ### Commands
