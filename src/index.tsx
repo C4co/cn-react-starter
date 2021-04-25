@@ -4,6 +4,11 @@ import React from "react"
 import ReactDOM from "react-dom"
 import App from "./app"
 import reportWebVitals from "./reportWebVitals"
+import { ThemeBase } from "./theme/theme-type"
+
+declare module "styled-components" {
+  export interface DefaultTheme extends ThemeBase {}
+}
 
 ReactDOM.render(
   <React.StrictMode>
