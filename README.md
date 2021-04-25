@@ -21,9 +21,9 @@ npx create-react-app --template cn-starter
 - [Testing Library](https://testing-library.com/)
 - [Styled Components](https://styled-components.com/)
 - [React Router Dom](https://reactrouter.com/web/guides/quick-start)
-- [React query](https://react-query.tanstack.com/)
-- [React snap](https://github.com/stereobooster/react-snap)
-- [React icons](https://react-icons.github.io/react-icons/)
+- [React Query](https://react-query.tanstack.com/)
+- [React Snap](https://github.com/stereobooster/react-snap)
+- [React Icons](https://react-icons.github.io/react-icons/)
 - [Axios](https://github.com/axios/axios)
 
 ### Layers
@@ -36,6 +36,7 @@ npx create-react-app --template cn-starter
     📁 /routes (config about routes)
     📁 /services (server communication)
     📁 /templates (page layouts)
+    📁 /themes (page layouts)
     📁 /values (constant values)
 ```
 

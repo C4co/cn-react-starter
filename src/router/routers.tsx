@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
-
 import { HomePage, NotFoundPage } from "../pages"
 
 export function Routes() {
