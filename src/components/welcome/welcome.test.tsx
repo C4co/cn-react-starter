@@ -2,7 +2,7 @@ import "@testing-library/jest-dom/extend-expect"
 import "@testing-library/jest-dom"
 import "jest-styled-components"
 import { render } from "@testing-library/react"
-import { Welcome } from "./welcome"
+import { Welcome } from "./welcome.component"
 
 describe("<Title /> component", () => {
   test("Check initial render", () => {
