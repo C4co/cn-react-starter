@@ -15,5 +15,9 @@ interface BasicPageProps {
 }
 
 export function BasicPage(props: BasicPageProps) {
-  return <Center>{props.children}</Center>
+  return(
+    <Center>
+      {props.children}
+    </Center>
+  )
 }
