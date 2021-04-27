@@ -1,6 +1,6 @@
 import { Routes } from "./router"
 import { ThemeProvider } from "styled-components"
-import { LIGHT_THEME } from "./theme"
+import { LIGHT_THEME } from "./themes"
 import { QueryClient, QueryClientProvider } from "react-query"
 
 const queryClient = new QueryClient()
